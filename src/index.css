@@ -9,10 +9,25 @@ html,
 body {
   width: 100dvw;
   overflow-x: hidden;
-  background-color: black;
   color: white;
   scroll-behavior: smooth;
   font-family: "Mona Sans", sans-serif;
+}
+
+body {
+  background: light-dark(#fff, #000);
+}
+
+html {
+  color-scheme: light dark;
+}
+
+[data-theme="light"] {
+  color-scheme: light only;
+}
+
+[data-theme="dark"] {
+  color-scheme: dark only;
 }
 
 section {

@@ -22,7 +22,8 @@
     "react-dom": "^19.1.0",
     "react-responsive": "^10.0.1",
     "tailwindcss": "^4.1.7",
-    "three": "^0.176.0"
+    "three": "^0.176.0",
+    "tweakpane": "^4.0.5"
   },
   "devDependencies": {
     "@eslint/js": "^9.25.0",

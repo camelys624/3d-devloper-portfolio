@@ -8,6 +8,7 @@ import TechStack from "./sections/TechStack.jsx";
 import Testimonials from "./sections/Testimonials.jsx";
 import Contact from "./sections/Contact.jsx";
 import Footer from "./sections/Footer.jsx";
+import LiquidGlass from './components/LiquidGlass'
 
 const App = () => {
     return (
@@ -22,6 +23,7 @@ const App = () => {
             <Testimonials />
             <Contact/>
             <Footer />
+            <LiquidGlass />
         </main>
     )
 }
